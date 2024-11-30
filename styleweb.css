@@ -1,0 +1,236 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #1e00ff;
+    position: fixed;
+    width: 100% ;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    /* opacity: 0.5; */
+    color: #2a67ff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    background-color: #f1c40f;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-cta:hover {
+    background-color: #e67e22;
+}
+
+/* Produk Section */
+.produk {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.produk h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card .btn-cta {
+    background-color: #3498db;
+}
+
+.card .btn-cta:hover {
+    background-color: #2980b9;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;    
+    width: 100%;
+    bottom: 0;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+#dokter{
+    display: block;
+}
+
+.py-5 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer .social-media {
+    margin-top: 10px;
+  }
+  .footer .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .footer .social-icon img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .social-icon:hover img {
+    transform: scale(1.2);
+  }
